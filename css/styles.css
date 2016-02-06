@@ -1,0 +1,87 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+    background-color: black;
+    
+    font-family: cursive;
+}
+
+.main {
+    width: 860px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+}
+
+.contacts {
+    float: right;
+    
+    display: block;
+    
+    color: #e6e6e6;
+    padding-top: 95px;
+    padding-right: 40px;
+}
+
+.contactFirst {
+    display: block;
+    
+    font-size: 11px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.contactSecond {
+    display: block;
+    
+    font-size: 8.5px;
+    line-height: normal;
+}
+
+.contentMain {
+    display: block;
+    height: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentCountry {
+    float: left;
+    
+    display: block;
+    margin: 0px 14px 70px 0px;
+}
+
+.contentImage {
+    border: 3px solid #808080;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.contentText {
+    display: block;
+    
+    color: #e6e6e6;
+    
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.copyright {
+    display: block;
+    
+    color: #e6e6e6;
+    
+    font-size: 10px;
+    text-align: center;
+}
